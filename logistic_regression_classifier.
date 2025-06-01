@@ -1,0 +1,11 @@
+git init
+git remote add origin https://github.com/your-username/logistic_regression_classifier.git
+
+
+mkdir -p logistic_regression_classifier/{data,notebooks,plots}
+mv logistic_regression_classifier.ipynb logistic_regression_classifier/notebooks/
+mv README.md requirements.txt logistic_regression_classifier/
+cd logistic_regression_classifier
+git add .
+git commit -m "Initial commit - Logistic Regression Classifier"
+git push -u origin master

@@ -1,0 +1,13 @@
+logistic_regression_classifier/
+├── data/
+│   └── (data.csv - User uploads via files.upload())
+│
+├── notebooks/
+│   └── logistic_regression_classifier.ipynb  <-- Main notebook
+│
+├── plots/ (optional)
+│   └── confusion_matrix.png
+│   └── roc_curve.png
+│
+├── README.md
+├── requirements.txt
